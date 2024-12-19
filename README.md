@@ -24,11 +24,11 @@ SensorYL sensor;
 
 void setup() {
     Serial.begin(9600);
-    sensor.apply(2);  // Assign the pin connected to the sensor
+    sensor.apply(2);  
 }
 
 void loop() {
-    int sensorValue = sensor.read(); // Read the inverted signal from the sensor
-    Serial.println(sensorValue);     // Print the value (0 or 1)
+    int sensorValue = sensor.read(); 
+    Serial.println(sensorValue);     
     delay(1000);
 }
