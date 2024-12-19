@@ -1,6 +1,6 @@
 # SensorYL Library
 
-## Overview (English)
+## Overview
 
 The **SensorYL** library is designed to simplify the interaction with sensors connected to Arduino. It supports both digital and analog pins, with automatic signal inversion for convenience.
 
